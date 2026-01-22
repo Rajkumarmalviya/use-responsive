@@ -1,0 +1,46 @@
+# Source files (keep src/ for source maps)
+tsconfig.json
+.gitignore
+.editorconfig
+.prettierrc
+.prettierignore
+
+# Examples
+example/
+example-dist/
+vite.config.ts
+
+# Development
+node_modules/
+*.log
+.cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+jest.config.js
+
+# Build config
+tsup.config.ts
+
+# Git
+.git
+.github/
+
+# Misc
+CONTRIBUTING.md
